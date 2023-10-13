@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
     <title>Shop</title>
 </head>
 <body>
@@ -19,22 +20,29 @@
             </section>
         </nav>
         <section class="header_container">
-            <h1 class="header_container_title">Сантехника и мебель для ванной комнаты</h1>
-            <ul>
-                <li>О компании</li>
-                <li>О продукции</li>
-                <li>Каталог товаров</li>
-            </ul>
+            <div class="header_container_block">
+                <h1 class="header_container_title">Сантехника и мебель для ванной комнаты</h1>
+                <ul class="header_container_list">
+                    <li class="header_container_item" >О компании</li>
+                    <li class="header_container_item" >О продукции</li>
+                    <li class="header_container_item1" >Каталог товаров</li>
+                </ul>
+            </div>
+            <aside class="header_aside">
+                <img class="header_aside_img" src="Image/replace me.png" alt="">
+            </aside>
         </section>
-        <aside class="header_aside">
-            <img class="header_aside_img" src="Image/replace me.png" alt="">
-        </aside>
     </header>
     <main class="main_block">
         <section class="main1">
             <section class="main_container1">
                 <section class="main_container1_block">
-                    <p class="main_container1_block_text"> <strong class="main_container1_block_text_str">Orange</strong> – немецкая торговая марка. Главный офис и основное производство расположены в Германии. Производим смесители, душевые кабины, ванны и мебель для ванных комнат.</p>
+                    <section class="main_container1_block_item1">
+                        <section class="main_container1_block_item2">
+                            <p class="one">O</p>
+                            <p class="main_container1_block_text"> <strong class="main_container1_block_text_str">range</strong> – немецкая торговая марка. Главный офис и основное производство расположены в Германии. Производим душевые кабины, ванны и мебель для ванных комнат.</p>
+                        </section>
+                    </section>
                     <p class="main_container1_block_text">Мы предлагаем качественную продукцию немецкого производства, которая полностью адаптирована к реалиям российскиого рынка.</p>
                 </section>
                 <aside class="main_aside">
@@ -54,20 +62,22 @@
                     </section>
                 </aside>
             </section>
-            <section class="main_container2">
-                <h2 class="main_container2_title">Наша продукция</h2>
-                <section class="main_container2_block">
-                    <img class="main_container2_block_img" src="Image/Group 15.png" alt="">
-                    <img class="main_container2_block_img" src="Image/Group 16.png" alt="">
-                    <img class="main_container2_block_img" src="Image/Group 17.png" alt="">
-                    <img class="main_container2_block_img" src="Image/Mask Group.png" alt="">
-                </section>
+        </section>
+        <section class="main_container2">
+            <h2 class="main_container2_title">Наша продукция</h2>
+            <section class="main_container2_block">
+                <img class="main_container2_block_img" src="Image/Group 15.png" alt="">
+                <img class="main_container2_block_img" src="Image/Group 16.png" alt="">
+                <img class="main_container2_block_img" src="Image/Group 17.png" alt="">
+                <img class="main_container2_block_img" src="Image/Mask Group.png" alt="">
             </section>
         </section>
         <section class="main2">
             <section class="main2_container">
-                <h2 class="main2_container_title">Коллекции</h2>
-                <p class="main2_container_text">Чувственность и элегантность, пуризм и эксклюзивность, а может уют и романтичность? Наши коллекции, разработанные лучшими дизайнерами отрасли, помогут создать вам именно ту атмосферу ванной комнаты, которую вы всегда искали.</p>
+                <section class="main2_container_item">
+                    <h2 class="main2_container_title">Коллекции</h2>
+                    <p class="main2_container_text">Чувственность и элегантность, пуризм и эксклюзивность, а может уют и романтичность? Наши коллекции, разработанные лучшими дизайнерами отрасли, помогут создать вам именно ту атмосферу ванной комнаты, которую вы всегда искали.</p>
+                </section>
                 <ul class="main2_container_list">
                     <li class="main2_container_list_comp"><a class="main2_container_list_comp_link" href="">Все коллекции</a></li>
                 </ul>
@@ -82,22 +92,22 @@
                 <section class="main3_container1_card">
                     <img class="main3_container1_card_img" src="Image/image 2.1.png" alt="">
                     <p class="main3_container1_card_text">O-mebel зеркальный шкаф со светом Лотос</p>
-                    <h2 class="main3_container1_title"><strong class="main3_container1_str">5 990 ₽</strong>6 499 ₽</h2>
+                    <h2 class="main3_container1_title">5 990 ₽<strong class="main3_container1_str">6 490 ₽</strong></h2>
                 </section>
                 <section class="main3_container1_card">
                     <img class="main3_container1_card_img" src="Image/image 1.1.png" alt="">
                     <p class="main3_container1_card_text">Orange Berti M17-021cr однорычажный смеситель для раковины без донного клапана</p>
-                    <h2 class="main3_container1_title"><strong class="main3_container1_str">4 090 ₽</strong></h2>
+                    <h2 class="main3_container1_title">4 090 ₽</h2>
                 </section>
                 <section class="main3_container1_card">
                     <img class="main3_container1_card_img" src="Image/image 21.png" alt="">
                     <p class="main3_container1_card_text">Ручной душ O-Shower OS05</p>
-                    <h2 class="main3_container1_title"><strong class="main3_container1_str">1 100 ₽</strong>1 990 ₽</h2>
+                    <h2 class="main3_container1_title">1 990 ₽<strong class="main3_container1_str">1 100 ₽</strong></h2>
                 </section>
                 <section class="main3_container1_card">
                     <img class="main3_container1_card_img" src="Image/image 12.1.png" alt="">
                     <p class="main3_container1_card_text">Orange Berti M17-100cr однорычажный ванно-душевой смеситель</p>
-                    <h2 class="main3_container1_title"><strong class="main3_container1_str">5 490 ₽</strong></h2>
+                    <h2 class="main3_container1_title">5 490 ₽</h2>
                 </section>
             </section>
             <section class="main3_container2">
@@ -127,7 +137,6 @@
     </main>
     <footer class="footer">
         <img class="footer_logo" src="Image/Layer 1.png" alt="">
-        <nav>
             <ul class="footer_nav_list">
                 <li class="footer_nav_list_elem">О компании</li>
                 <li class="footer_nav_list_elem">Сотрудничество</li>
@@ -138,7 +147,21 @@
                <li class="footer_nav_list_elem">Сервисное обслуживание</li>
                <li class="footer_nav_list_elem">Контакты</li> 
             </ul>
-        </nav>
+        <section class="footer_sec1">
+            <p class="footer_sec1_txt">Есть вопросы?</p>
+            <section class="footer_sec1_block">
+                <img src="image/mail.svg" alt="">
+                <p class="footer_sec1_block_txt">hello@orangemixers.ru</p>
+            </section>
+            <section class="footer_sec1_block">
+                <img src="image/iphone.svg" alt="">
+                <p class="footer_sec1_block_txt">+7 (495) 543 23 45</p>
+            </section>
+        </section>
+        <section class="footer_sec1">
+            <p class="footer_sec1_txt">Мы в соцсетях</p>
+            <img class="footer_sec1_img" src="image/Group.svg" alt="">
+        </section>
     </footer>
 </body>
 </html>
