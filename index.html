@@ -14,6 +14,14 @@
                 <a class="nav_container1_link" href="">Разработано в Германии. Сделано в России.</a>
             </section>
             <section class="nav_container2">
+                <div class="dropdown">
+                    <button onclick="toggleDropdown()" class="dropbtn">Контакты</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#">+7 (905) 543 23 45</a>
+                        <a href="#">hello@orangemixers.ru</a>
+                        <a href="#">@helloorangeMixers</a>
+                    </div>
+                </div>
                 <img class="nav_container2_img1" src="Image/Vector.svg" alt="">
                 <a class="nav_container2_link" href="">+7 (905) 543 23 45</a>
                 <img class="nav_container2_img2" src="Image/search 1.png" alt="">
@@ -26,6 +34,7 @@
                     <li class="header_container_item" >О компании</li>
                     <li class="header_container_item" >О продукции</li>
                     <li class="header_container_item1" >Каталог товаров</li>
+                    <div class="button">Оформить заказ</div>
                 </ul>
             </div>
             <aside class="header_aside">
@@ -33,6 +42,24 @@
             </aside>
         </section>
     </header>
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img class="main_container2_block_img" src="Image/Group 15.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img class="main_container2_block_img" src="Image/Group 16.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img class="main_container2_block_img" src="Image/Group 17.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img class="main_container2_block_img" src="Image/Mask Group.png" alt="">
+            </div>
+        </div>
+        <div class="swiper-button-prev"><</div>
+        <div class="swiper-button-next">></div>
+    </div>
     <main class="main_block">
         <section class="main1">
             <section class="main_container1">
@@ -61,15 +88,6 @@
                         </section>
                     </section>
                 </aside>
-            </section>
-        </section>
-        <section class="main_container2">
-            <h2 class="main_container2_title">Наша продукция</h2>
-            <section class="main_container2_block">
-                <img class="main_container2_block_img" src="Image/Group 15.png" alt="">
-                <img class="main_container2_block_img" src="Image/Group 16.png" alt="">
-                <img class="main_container2_block_img" src="Image/Group 17.png" alt="">
-                <img class="main_container2_block_img" src="Image/Mask Group.png" alt="">
             </section>
         </section>
         <section class="main2">
@@ -163,5 +181,6 @@
             <img class="footer_sec1_img" src="image/Group.svg" alt="">
         </section>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
